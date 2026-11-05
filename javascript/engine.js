@@ -1251,12 +1251,12 @@ function DisplayTrack() {
     setMatrixUniforms();
 
     // This will show the crash barriers if enabled
-    /*gl.drawElements(
+    gl.drawElements(
         gl.TRIANGLES,
         trackBuildingVertexIndexCount,
         gl.UNSIGNED_SHORT,
         0
-    );*/
+    );
 
     movePopMatrix();
 }
